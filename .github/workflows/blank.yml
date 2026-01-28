@@ -1,0 +1,28 @@
+# Elitrói Enterprise WordPress Platform
+
+BNPL-ready, lead-alapú, enterprise WordPress rendszer
+WooCommerce alapon.
+
+## Funkciók
+- iPon-szerű shop UX (legális)
+- Vásárlás helyett ajánlatkérés
+- Lead mentés adatbázisba
+- Admin dashboard (KPI)
+- BNPL státusz kezelés
+- CSV / Excel export
+- GDPR kompatibilis
+- Plugin + MU-plugin védelem
+
+## Telepítés
+1. `theme/elitro-enterprise-theme` → `wp-content/themes`
+2. `plugins/elitro-enterprise-core` → `wp-content/plugins`
+3. `mu-plugins/elitro-mandatory.php` → `wp-content/mu-plugins`
+4. WooCommerce telepítése
+5. Plugin aktiválása
+6. Oldalak létrehozása sablonokkal
+
+## Checkout
+Alapértelmezetten KI van kapcsolva.
+Bekapcsolás:
+```php
+define('ELITRO_CHECKOUT_ENABLED', true);
